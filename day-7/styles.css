@@ -1,0 +1,57 @@
+body {
+  background-color: lightgreen;
+  position: relative;
+}
+
+h1 {
+  padding-bottom: 20px;
+  text-align: center;
+  text-decoration: underline;
+
+}
+
+
+.box {
+  height: 60px;
+  width: 60px;
+  border: 2px solid black;
+  margin: 20px;
+  border-radius: 100%;
+  position: absolute;
+
+    transition: 1s ease-in-out;
+}
+
+
+ .clicked {
+   -webkit-transform: translate(1500px);
+       -moz-transform: translate(1500px);
+       -o-transform: translate(1500px);
+       -ms-transform: translate(1500px);
+
+}
+
+.one {
+  background-color: red;
+  top: 20px;
+}
+
+.two {
+  background-color: orange;
+  top: 120px;
+}
+
+.three {
+  background-color: yellow;
+  top: 220px;
+}
+
+.four {
+  background-color: blue;
+  top: 320px;
+}
+
+.five {
+  background-color: purple;
+  top: 420px;
+}
